@@ -1,0 +1,71 @@
+body{
+	background-color: black;
+	background-image: url(https://wallpaperaccess.com/full/3097725.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+margin: 20px;
+}
+
+h1 {
+	font-family: Impact, Charcoal, sans-serif;
+
+	color:black;
+	font-size: 50px;
+margin-left: 50px;
+}
+h3{
+	color: black;
+	font-size: 100px;
+	margin-left: 23%;
+}
+
+.container{
+	padding: 16px;
+	}
+h4{
+	font-size: 40px;
+	color: indianred;
+
+}
+label{
+	background-color: whitesmoke;
+	color: black;
+	border: solid;
+	margin: auto;
+	padding: 2.5px;
+	position: absolute;
+}
+button{
+	font-size: 20px;
+}
+
+.fade-in {
+  animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
+  -moz-animation: fadeIn ease 6s;
+  -o-animation: fadeIn ease 6s;
+  -ms-animation: fadeIn ease 6s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
