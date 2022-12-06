@@ -6,54 +6,165 @@
   <title>anime.ouss.tn</title>
   <script src='https://code.jquery.com/jquery-2.2.4.js'>
 
-</script> 
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
-   
-
+   <ul>
+  <li><a id="home" href="#home">Home</a></li>
+  <li id="news"><a href="https://www.animenewsnetwork.com/">News</a></li>
+  <li id="contact"><a href="#contact">Contact</a></li>
+  <li><a id="about" href="#about">About</a></li>
+</ul>
 <div>
+  <p id="demo"></p>
+  <p id="one">
+    this is a demo webstie presenting my work of art.<br>
+    so, proceding to our work I'm an anime fun as you see. In our world<br>
+    this is what most people call weeb
+
+  </p>
+</div>
+<div >
     <h1 class="fade-in">Anime is a lifeStyle</h1></div>
     <div>
-    <h3 class="fade-in">Watch the latest animes .</h3></div>
+    <h3 class="fade-in">Watch the latest animes .</h3>
+    
+    <h2 id="three">
+      email:ous002@live.fr<br>
+      phone:20667240
+    </h2>
+  </div>
      <div class="container" >
-       <form >
-<label class="connect"><b>enter your email here</b></label>
-<br>
-<br>
-        <input class="em" type="email" placeholder="email" required ></input>
-        <br>
-        <br>
-
-
-        <label class="connect"><b>enter your password here</b></label>
-        <br>
-        <br>
-                  <input class="em" type="password" placeholder="password" required ></input>
-                  <br>
-                  <br>
-
-
-                  <button  type="submit">Connexion </button></a>
-                    
-                    <br>
-                  <br>
-                  
-                  <label>
-      <input type="checkbox" id="remember" checked="checked" name="remember"> Remember me
-    </label>
-    <br>
-    </div>
-        <h4>Don't have an account? Sign in here</h4>
-          <button type="button"><script type="text/javascript">
- var clickHandler = function() {
- alert('You clicked on me!');
-         </script> SignIn</button>
-
-       </form>
      
-    
-    
+       
  
+  
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">login</button>
+
+  
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+    
+      <div id="mdc" class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+        </div>
+        
+            <form id="singin" ><div class="modal-body">
+                
+              <label class="connect"><b>enter your email here</b></label>
+                <br>
+                <br>
+                        <input id="em" type="email" placeholder="email" required ></input>
+                        <br>
+                        <br>
+                
+                
+                        <label class="connect"><b>enter your password here</b></label>
+                        <br>
+                        <br>
+                                  <input id="psw" type="password" placeholder="password" required ></input>
+                                  <br>
+                                  <br>
+                
+                                  
+                                  <button id="cnt" type="button">Connexion </button></a>
+                                    
+                                    <br>
+                                  <br>
+                                  
+                                  <label>
+                      <input type="checkbox" class="remember" checked="checked" name="remember"> Remember me
+                    </label>
+                    <br>
+                
+                
+                    </div>
+                      
+                    <a href="file:///C:/Users/ous00/Desktop/poj/ht1.html"><button id="gues" type="button" name="guest">continue</button></a>
+                </div>
+                       </form>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">signUp</button>
+
+  
+<div class="modal fade" id="myModal1" role="dialog">
+  <div class="modal-dialog">
+  
+  
+    <div id="mdc1" class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+       
+      </div>
+      
+          <form id="singUp" ><div class="modal-body">
+             
+            <label class="connect1"><b>enter your email here</b></label>
+              <br>
+              <br>
+                      <input id="em1" type="email" placeholder="email" required ></input>
+                      <br>
+                      <br>
+              
+              
+                      <label class="connect"><b>enter your password here</b></label>
+                      <br>
+                      <br>
+                                <input id="psw1" type="password" placeholder="password" required ></input>
+                                <br>
+                                <br>
+              
+                                
+                                <button id="cnt1" type="button">signUp </button>
+                                  
+                                  <br>
+                                <br>
+                                
+                                <label>
+                    <input type="checkbox" class="remember" checked="checked" name="remember"> Remember me
+                  </label>
+                  <br>
+              
+              
+                  </div>
+                    
+                      
+              </div>
+                     </form>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+</div>
+       
+      
+<script src="h1.js">
+</script>
+<script>
+  $('#one').hide()
+  $('#gues').hide()
+  $('#three').hide()
+</script>
   </body>
 
 </html>

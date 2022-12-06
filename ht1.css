@@ -1,0 +1,64 @@
+body{
+	background-color: black;
+	background-image: url(https://wallpaperaccess.com/full/3097725.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+margin: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+overflow: hidden;
+
+top:0;
+width: 100%;
+}
+li{
+	display: inline;
+	float: right;
+	border-right: 1px solid;
+}
+li a {
+  display: block;
+  padding: 8px;
+ text-decoration: none;
+ text-align: center;
+ color: whitesmoke;
+}
+li a:hover{
+	background-color: #111;
+}
+.myVideo{
+	float: right;
+}
+
+#about{
+	font-family: Impact, Charcoal, sans-serif;
+
+	color:rgb(6, 32, 4);
+	font-size: 50px;
+margin-left: 50px;
+}
+#news{
+	font-family: Impact, Charcoal, sans-serif;
+
+	color:rgb(6, 32, 4);
+	font-size: 50px;
+margin-left: 50px;
+}
+#home{
+	font-family: Impact, Charcoal, sans-serif;
+
+	color:rgb(6, 32, 4);
+	font-size: 50px;
+margin-left: 50px;
+}
+#contact{
+	font-family: Impact, Charcoal, sans-serif;
+
+	color:rgb(6, 32, 4);
+	font-size: 50px;
+margin-left: 50px;
+}
